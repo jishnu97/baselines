@@ -1,0 +1,3 @@
+Hyperparameters:
+Path length = 10
+Obspace = Goal coordinates+current coordinates

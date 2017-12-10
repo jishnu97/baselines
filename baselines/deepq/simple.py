@@ -3,7 +3,6 @@ import tempfile
 
 import tensorflow as tf
 import zipfile
-import cloudpickle
 import numpy as np
 
 import gym
@@ -12,7 +11,7 @@ from baselines import logger
 from baselines.common.schedules import LinearSchedule
 from baselines import deepq
 from baselines.deepq.replay_buffer import ReplayBuffer, PrioritizedReplayBuffer
-
+import cloudpickle
 
 class ActWrapper(object):
     def __init__(self, act, act_params):
